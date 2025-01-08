@@ -1,0 +1,23 @@
+.bg-color-sea{
+    background-color: #299EBF;
+}
+.img-tab-logo{
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 399px;
+    height: 160px;
+}
+.line-tab{
+    border-width: 0;
+    height: 20px;
+    width: auto;
+}
+.manu-tab{
+    background-color: #299EBF;
+    width: 399px;
+    height: 60px;
+}
+.btn-fill{
+    width: 300px;
+}
