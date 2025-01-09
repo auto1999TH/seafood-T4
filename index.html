@@ -12,20 +12,20 @@
 </head>
 <body>
 
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom sticky-top bg-color-sea">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom sticky-top bg-color-sea" style="color: aliceblue;">
         <div class="col-md-3 mb-2 mb-md-0">
             <button class="navbar-item btn" data-bs-toggle="offcanvas" aria-controls="offcanvasScrolling" data-bs-target="#offcanvasScrolling">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list icon-size" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
             </button>
         </div>
   
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <h1><label class="font-lexend-zetta" style="color: aliceblue;">SEAFOOD</label></h1>
+            <h1><label class="font-lexend-zetta">SEAFOOD</label></h1>
         </ul>
   
         <div class="col-md-3 text-end">
             <button type="button" class="btn position-relative" id="show-bill" data-bs-toggle="modal" data-bs-target="#exampleModal" style="right: 50px;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16"><path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"></path><path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus icon-size" viewBox="0 0 16 16"><path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"></path><path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"></path></svg>
             </button>
         </div>
     </header>
@@ -417,24 +417,22 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header bg-color-sea">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">ใบเสร็จ</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">ใบเสร็จ</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div id="bill-details" class="mb-3"></div>
-                    <h4 class="text-end">ส่วนลด: <span id="discount">0</span> บาท</h4>
                 </div>
                 <div class="modal-footer">
-                    <h4 class="text-end">รวมทั้งหมด: <span id="total-price">0</span> บาท</h4>
-                <button type="button" class="btn btn-primary">Confirm</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Confirm</button>
                 </div>
             </div>
         </div>
     </div>
-<center></center>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         const selectedMenus = [];
+        let initialTotalPrice = 499;
 
         document.querySelectorAll('.select-menu').forEach(button => {
             button.addEventListener('click', function() {
@@ -455,7 +453,7 @@
 
         document.querySelector('#show-bill').addEventListener('click', function() {
             if (selectedMenus.length > 0) {
-                let totalPrice = 0;
+                let totalPrice = initialTotalPrice;
                 let billHTML = `
                     <table class="table">
                         <thead>
@@ -484,14 +482,28 @@
                     `;
                 });
 
-                billHTML += `
-                        </tbody>
-                    </table>
-                `;
-
                 // Calculate discount
                 const discount = selectedMenus.length >= 5 ? totalPrice * 0.1 : 0;
                 const finalPrice = totalPrice - discount;
+
+                billHTML += `
+                        </tbody>
+                        <tfoot>
+                            <tr class="total-row">
+                                <td colspan="4">รวมทั้งหมด</td> 
+                                <td>${totalPrice.toFixed(2)}</td> 
+                            </tr>
+                            <tr class="total-row">
+                                <td colspan="4">ส่วนลด</td> 
+                                <td>${discount.toFixed(2)}</td> 
+                            </tr> 
+                            <tr class="total-row">
+                                <td colspan="4">ราคาสุทธิ</td> 
+                                <td>${finalPrice.toFixed(2)}</td> 
+                            </tr>
+                        </tfoot>
+                    </table>
+                `;
 
                 // Display bill details
                 document.querySelector('#bill-details').innerHTML = billHTML;
