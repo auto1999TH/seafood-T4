@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lexend+Zetta:wght@100..900&display=swap');
+    </style>
     <title>SEAFOOD</title>
 </head>
 <body>
@@ -17,7 +20,7 @@
         </div>
   
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <h1><label style="color: aliceblue;">SEAFOOD</label></h1>
+            <h1><label class="font-lexend-zetta" style="color: aliceblue;">SEAFOOD</label></h1>
         </ul>
   
         <div class="col-md-3 text-end">
@@ -27,95 +30,53 @@
         </div>
     </header>
 
-    <div class="container mt-5">
-        <h2 class="text-center">เมนูอาหาร</h2>
-        <div class="row">
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <img src="img/บุฟเฟ่ต์/1678447221_c3331ac58e0a5624f28d389cd48843a0.jpg" class="card-img-top" alt="Dish 1">
-                    <div class="card-body">
-                        <h5 class="card-title">หอยนางรม</h5>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="หอยนางรม" data-price="50">เลือกเมนูนี้</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <img src="img/บุฟเฟ่ต์/3p5t4d.jpg" class="card-img-top" alt="Dish 2">
-                    <div class="card-body">
-                        <h5 class="card-title">หอยเชลล์</h5>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="หอยเชลล์" data-price="100">เลือกเมนูนี้</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <img src="img/บุฟเฟ่ต์/4088.jpg" class="card-img-top" alt="Dish 3">
-                    <div class="card-body">
-                        <h5 class="card-title">หมึกกระดอง</h5>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="หมึกกระดอง" data-price="30">เลือกเมนูนี้</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <img src="img/บุฟเฟ่ต์/5e1c1a90dcd77e0513f854b36924db58.jpg" class="card-img-top" alt="Dish 2">
-                    <div class="card-body">
-                        <h5 class="card-title">กุ้งลายเสือแดง</h5>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="กุ้งลายเสือแดง" data-price="100">เลือกเมนูนี้</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5">
+    <div class="container mt-5 k2d-main">
         <div class="row">
             <div class="col-md-3 mb-3">
                 <div class="card">
                     <img src="img/บุฟเฟ่ต์/467191939_978883480960436_690181151153308133_n.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
                         <h5 class="card-title">กุ้งมังกร</h5>
-                        <p class="card-text">ราคา : 459 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="กุ้งมังกร" data-price="50">เลือกเมนูนี้</button>
+                        <p class="card-text">lobster</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="กุ้งมังกร" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/4103093_l_720x_11zon.png" class="card-img-top" alt="Dish 3">
+                    <img src="img/บุฟเฟ่ต์/w1200.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">เสือร้องไห้</h5>
-                        <p class="card-text">ราคา : 340 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="เสือร้องไห้" data-price="30">เลือกเมนูนี้</button>
+                        <h5 class="card-title">กุ้งขาว</h5>
+                        <p class="card-text">white leg shrimp</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="กุ้งขาว" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/60a2ce0980.jpg" class="card-img-top" alt="Dish 3">
+                    <img src="img/บุฟเฟ่ต์/Hb9d137342da9416087876c1f6ca5fadak.jpg_720x720q50_11zon.png" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">หนวดหมึกยักษ์</h5>
-                        <p class="card-text">ราคา : 345 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="หนวดหมึกยักษ์" data-price="30">เลือกเมนูนี้</button>
+                        <h5 class="card-title">กุ้งกุลาดำ</h5>
+                        <p class="card-text">black tiger shrimp</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="กุ้งกุลาดำ" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/Japanese-Wagyu.jpg" class="card-img-top" alt="Dish 3">
+                    <img src="img/บุฟเฟ่ต์/5e1c1a90dcd77e0513f854b36924db58.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">วากิว A4</h5>
-                        <p class="card-text">ราคา : 699 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="วากิว A4" data-price="30">เลือกเมนูนี้</button>
+                        <h5 class="card-title">กุ้งลายเสือแดง</h5>
+                        <p class="card-text">Red Tiger Prawn</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="กุ้งลายเสือแดง" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,60 +87,328 @@
         <div class="row">
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/84b757b4d95a74f8b4dcda02ad1776b4.jpg" class="card-img-top" alt="Dish 1">
+                    <img src="img/บุฟเฟ่ต์/หมึกสาย.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">หมึกทอด</h5>
-                        <p class="card-text">ราคา : 99 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="หมึกทอด" data-price="50">เลือกเมนูนี้</button>
+                        <h5 class="card-title">หมึกสาย</h5>
+                        <p class="card-text">octopus</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หมึกสาย" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/dFQROr7oWzulq5Fa5LFdxmTND2xrLNgfihnUSR6C94mdktNzmunCuI1cSTgf2FjGvez.jpg" class="card-img-top" alt="Dish 2">
+                    <img src="img/บุฟเฟ่ต์/image_168284798376522883222dc7208t118a5fdf.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">ปีกไก่ทอด</h5>
-                        <p class="card-text">ราคา : 89 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="ปีกไก่ทอด" data-price="100">เลือกเมนูนี้</button>
+                        <h5 class="card-title">หมึกกล้วย</h5>
+                        <p class="card-text">splendid squid</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หมึกกล้วย" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/f919816532654ddba401747dfd7fd171_11zon.png" class="card-img-top" alt="Dish 3">
+                    <img src="img/บุฟเฟ่ต์/60a2ce0980.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">ข้าวเหนียวมะม่วง</h5>
-                        <p class="card-text">ราคา : 69 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="ข้าวเหนียวมะม่วง" data-price="30">เลือกเมนูนี้</button>
+                        <h5 class="card-title">หนวดปลาหมึกยัก</h5>
+                        <p class="card-text">tentacles giant squid</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หนวดปลาหมึกยัก" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
-                    <img src="img/บุฟเฟ่ต์/809833FC1C0A47E58125BB86B868D0B7.jpg" class="card-img-top" alt="Dish 3">
+                    <img src="img/บุฟเฟ่ต์/4088.jpg" class="card-img-top" alt="Dish 1">
                     <div class="card-body">
-                        <h5 class="card-title">เฟรนฟราย</h5>
-                        <p class="card-text">ราคา : 75 บาท</p>
-                        <input type="number" class="form-control mb-2" placeholder="จํานวน" min="1" value="1">
-                        <button class="btn btn-primary select-menu" data-menu="เฟรนฟราย" data-price="30">เลือกเมนูนี้</button>
+                        <h5 class="card-title">หมึกกระดอง</h5>
+                        <p class="card-text">cuttlefish</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หมึกกระดอง" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/1678447221_c3331ac58e0a5624f28d389cd48843a0.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">หอยนางรม</h5>
+                        <p class="card-text">lobster</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หอยนางรม" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/หอยเม่น.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">หอยเม่น</h5>
+                        <p class="card-text">urchin</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หอยเม่น" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/3p5t4d.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">หอยเชล</h5>
+                        <p class="card-text">Scallop</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หอยเชล" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/หอยแมลงภู่.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">หอยแมลงภู่</h5>
+                        <p class="card-text">Mussels</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="หอยแมลงภู่" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/1f7f2518-7676-43e8-acc0-697d150d2f66.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ปูทองหลาง</h5>
+                        <p class="card-text">Scylla paramamosain</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ปูทองหลาง" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/d7285aaf-ef52-4a78-bfff-dff6de7f935a.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ปูจั๊กจั่น</h5>
+                        <p class="card-text">Ranina vanima</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ปูจั๊กจั่น" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/images.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ปูไข่</h5>
+                        <p class="card-text">crab eggs</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ปูไข่" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/Blue-crab-raw.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ปูม้า</h5>
+                        <p class="card-text">horse crab</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ปูม้า" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/yakiniku-fcm_6559-1024x1024.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="display: flex;justify-content: flex-end;justify-content: space-between;">เนื้อวากิว A5 <span>759</span></h5>
+                        <p class="card-text">Kagoshima A5 Wagyu Tenderloin</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="เนื้อวากิว A5" data-price="759"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/Japanese-Wagyu.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="display: flex;justify-content: flex-end;justify-content: space-between;">เนื้อวากิว A4<span>699</span></h5>
+                        <p class="card-text">Kagoshima A4 Wagyu Ribeye</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="เนื้อวากิว" data-price="699"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/4103093_l_720x_11zon.png" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="display: flex;justify-content: flex-end;justify-content: space-between;">เสือร้องไห้<span>340</span></h5>
+                        <p class="card-text">Brisket Australian Grass Fed</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="เสือร้องไห้" data-price="340"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/สล.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="display: flex;justify-content: flex-end;justify-content: space-between;">ใบพาย<span>219</span></h5>
+                        <p class="card-text">Oyster blade</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ใบพาย" data-price="219"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/dFQROr7oWzulq5Fa5LFdxmTND2xrLNgfihnUSR6C94mdktNzmunCuI1cSTgf2FjGvez.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ปีกไก่ทอด</h5>
+                        <p class="card-text">fried chicken wings</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ปีกไก่ทอด" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/809833FC1C0A47E58125BB86B868D0B7.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">เฟรนฟรายทอด</h5>
+                        <p class="card-text">Fried French Fries</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="เฟรนฟรายทอด" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/84b757b4d95a74f8b4dcda02ad1776b4.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ปลาหมึกทอด</h5>
+                        <p class="card-text">Fried Squid</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ปลาหมึกทอด" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/2002dd63b10a4e33b17f261b820ad381.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">นักเก็ตทอด</h5>
+                        <p class="card-text">Nugget</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="นักเก็ตทอด" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/wmremove-transformed__1_-removebg-preview (1).png" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ไอศครีมราสเบอรี่</h5>
+                        <p class="card-text">raspberry</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ไอศครีมราสเบอรี่" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/wmremove-transformed__2_-removebg-preview (1).png" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ไอศครีมวนิลา</h5>
+                        <p class="card-text">Vanilla Ice Cream</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ไอศครีมวนิลา" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/wmremove-transformed__4_-removebg-preview (1).png" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ไอศครีมมะม่วง</h5>
+                        <p class="card-text">Mango Ice Cream</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-menu="ไอศครีมมะม่วง" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img src="img/บุฟเฟ่ต์/wmremove-transformed__5_-removebg-preview (1).png" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ไอศครีมสตอเบอรี่</h5>
+                        <p class="card-text">Strawberry Ice Cream</p>
+                        <div class="btn-R">
+                            <button class="btn select-menu" data-img="img/บุฟเฟ่ต์/wmremove-transformed__5_-removebg-preview (1).png" data-menu="ไอศครีมสตอเบอรี่" data-price="0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg icon-size color-sea" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <img class="img-tab-logo" src="img/logo.png" alt="SEAFOOD"/>
-        <div class="offcanvas-body">
-            <a href="./index.html"><h1 class="manu-tab">เมนูบุฟเฟ่ต์</h1></a>
-            <br>
+        <div class="offcanvas-body k2d-main">
+            <a href="./index.html"><h2 class="manu-tab">เมนูบุฟเฟ่ต์</h2></a>
             <a href="./food_manu.html"><h2>เมนูอาหาร</h2></a>
-            <br>
             <a href="./pro_mo.html"><h2>โปรโมชั่น</h2></a>
         </div>
     </div>
@@ -209,33 +438,40 @@
 
         document.querySelectorAll('.select-menu').forEach(button => {
             button.addEventListener('click', function() {
+                const img = this.dataset.img;
                 const menu = this.dataset.menu;
                 const price = parseInt(this.dataset.price);
-                const quantity = parseInt(this.previousElementSibling.value);
+                const quantity = 1;
 
                 // Check if the item already exists in the selectedMenus
                 const existingItem = selectedMenus.find(item => item.menu === menu);
                 if (existingItem) {
                     existingItem.quantity += quantity; // Update quantity if item exists
                 } else {
-                    selectedMenus.push({ menu, price, quantity });
+                    selectedMenus.push({ img, menu, price, quantity });
                 }
-                alert('คุณเลือก: ' + menu + ' x ' + quantity);
             });
         });
 
         document.querySelector('#show-bill').addEventListener('click', function() {
             if (selectedMenus.length > 0) {
                 let totalPrice = 0;
-                let billHTML = '<ul class="list-group">';
-
+                let billHTML = '<table class="table table-dark">';
+                
+                billHTML += '<thead><th>รูปรายการ</th><th>รายการ</th><th>จำนวน</th><th>ราคา</th><th>รวม</th></thead>';
                 selectedMenus.forEach(item => {
                     const itemTotal = item.price * item.quantity;
                     totalPrice += itemTotal;
-                    billHTML += `<li class="list-group-item">${item.menu} x ${item.quantity} = ${itemTotal} บาท</li>`;
+                    if (itemTotal == 0){
+                        // billHTML += `<li class="list-group-item">${item.menu} x ${item.quantity}</li>`;
+                        billHTML += `<tr><td>${img}</td></tr><tr><td>${item.menu}</td></tr><tr><td>${price}</td></tr><tr><td>${item.quantity}</td></tr><tr><td>${itemTotal}</td></tr>`;
+                    }
+                    else{
+                        billHTML += `<li class="list-group-item">${item.menu} x ${item.quantity} = ${itemTotal} บาท</li>`;
+                    }
                 });
 
-                billHTML += '</ul>';
+                billHTML += '</table>';
 
                 const discount = selectedMenus.length >= 5 ? totalPrice * 0.1 : 0;
                 const finalPrice = totalPrice - discount;

@@ -1,3 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap'); */
+
+.font-lexend-zetta{
+font-family: "Lexend Zetta", serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+.k2d-main {
+    font-family: "K2D", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.icon-size{
+    width: 40px;
+    height: 40px;
+}
+
+.btn-R{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -6,6 +32,11 @@
 .bg-color-sea{
     background-color: #299EBF;
 }
+
+.color-sea{
+    color: #299EBF;
+}
+
 .img-tab-logo{
     object-fit: cover;
     justify-content: center;
@@ -21,7 +52,7 @@
 .manu-tab{
     background-color: #299EBF;
     width: 399px;
-    height: 60px;
+    height: 50px;
 }
 body {
     font-family: 'Arial', sans-serif;
